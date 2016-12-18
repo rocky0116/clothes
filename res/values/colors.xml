@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="translucent_background">#130c0e</color>
+	
+	<color name="color_black">#000000</color>
+	<color name="color_white">#FFFFFF</color>
+	<color name="color_gray">#999999</color>
+	<color name="color_orange">#ABD8E3</color>
+	<color name="color_gray_fliter">#666666</color>
+	<color name="color_olivine">#e5ff05</color>
+	
+	<color name="dispose_color">#d5d9da</color>
+	<color name="suit_color">#DADDDF</color>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ImageProjectActivity!</string>
+    <string name="app_name">Clothes</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_item">Add item</string>
+    <string name="import_item">Import</string>
+    <string name="items">我的衣橱--上装</string>
+    <string name="with_clothes">我的搭配</string>
+    <string name="choice_items">Please choice items!</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
+    <string name="confirm">Confirm</string>
+    <!-- confirm -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="camera">Camera</string>
+    <string name="local_file">LocalFile</string>
+    <string name="frame">Frame</string>
+    <string name="cutting_line">Gut</string>
+    <!-- Cutting line -->
+
+    <string name="sdcard_not_available">sdCard not available</string>
+    <string name="small">M</string>
+    <string name="big">B</string>
+    <string name="erase">Erase</string>
+    <string name="flood">Flood</string>
+    <string name="Cut">Cut</string>
+    <string name="next">Next</string>
+    <string name="undo">Undo</string>
+    
+    
+    <string name="my_wardrobe">我的衣橱--</string>
+    <string name="upper_outer">上装</string>
+    <string name="pants">裤子</string>
+    <string name="skirt">裙子</string>
+    <string name="shoes">女鞋</string>
+    <string name="bags">女包</string>
+    <string name="decorations">饰品</string>
+    <string name="wardrobe">衣柜</string>
+
+</resources>

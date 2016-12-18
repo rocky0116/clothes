@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_2x"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="@drawable/bg_1_2x" >
+
+        <Button
+            android:id="@+id/wardrob_btn"
+            android:layout_width="53dip"
+            android:layout_height="32dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/bg_13_2x"
+            android:gravity="center"
+            android:text="@string/wardrobe"
+            android:textColor="@color/color_white" />
+
+        <TextView
+            android:id="@+id/title_txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/upper_outer"
+            android:textColor="@color/color_white"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/show_menu_view"
+            android:layout_width="35dp"
+            android:layout_height="31dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9dp"
+            android:gravity="center"
+            android:src="@drawable/icon_7_2x" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_item_menu_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="65dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/repeat_type_bg"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/upper_outer_garment_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_10_2x" />
+
+        <ImageView
+            android:id="@+id/pants_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_11_2x" />
+
+        <ImageView
+            android:id="@+id/skirt_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_12_2x" />
+
+        <ImageView
+            android:id="@+id/shoes_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_13_2x" />
+
+        <ImageView
+            android:id="@+id/bags_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_14_2x" />
+
+        <ImageView
+            android:id="@+id/decorations_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_15_2x" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="261dp"
+        android:layout_height="369dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_8_2x"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="244dp"
+            android:layout_height="295dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color_white" >
+
+            <ImageView
+                android:id="@+id/show_item_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/a_13" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/edit_view"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="-1dp"
+                android:background="@drawable/bg_10_2x"
+                android:src="@drawable/edit_item_btn_selector" />
+
+            <TextView
+                android:id="@+id/item_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="#00000000"
+                android:paddingBottom="2dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="2dp"
+                android:text="this a coat"
+                android:textColor="@color/color_black"
+                android:textSize="14dip" />
+
+            <ImageView
+                android:id="@+id/cut_view"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/bg_11_2x"
+                android:src="@drawable/cut_item_btn_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

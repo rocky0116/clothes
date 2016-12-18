@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/item_menu_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="65dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/repeat_type_bg"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/upper_outer_garment_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_10_2x" />
+
+        <ImageView
+            android:id="@+id/pants_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_11_2x" />
+
+        <ImageView
+            android:id="@+id/skirt_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_12_2x" />
+
+        <ImageView
+            android:id="@+id/shoes_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_13_2x" />
+
+        <ImageView
+            android:id="@+id/bags_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_14_2x" />
+
+        <ImageView
+            android:id="@+id/decorations_view"
+            android:layout_width="46dip"
+            android:layout_height="44dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/bt_15_2x" />
+    </LinearLayout>
+
+    <com.zujihu.clothes.view.ShelvesView
+        android:id="@+id/show_singleProduct_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dip"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

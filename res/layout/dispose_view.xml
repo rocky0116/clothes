@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dispose_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="@drawable/bg_1_2x"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <Button
+            android:id="@+id/back_view"
+            android:layout_width="53dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_13_2x"
+            android:text="@string/wardrobe"
+            android:textColor="@color/color_white"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/camera_view"
+            android:layout_width="35dp"
+            android:layout_height="31dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_5_2x" />
+
+        <ImageView
+            android:id="@+id/file_view"
+            android:layout_width="35dp"
+            android:layout_height="31dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_6_2x" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" >
+
+        <com.zujihu.clothes.view.MaskingImageView
+            android:id="@+id/image_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="matrix"
+            android:src="@drawable/icon" 
+            />
+
+        <com.zujihu.clothes.view.ShowIconView
+            android:id="@+id/icon_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/narrow_view"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/icon_41_2x" />
+
+        <SeekBar
+            android:id="@+id/player_seekbar"
+            android:layout_width="248dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:max="100"
+            android:progress="10"
+            android:progressDrawable="@drawable/icon_42_2x"
+            android:secondaryProgress="0"
+            android:thumb="@drawable/icon_43_2x" />
+
+        <ImageView
+            android:id="@+id/expand_view"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/icon_40_2x" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/bg_2_2x" >
+
+        <ImageView
+            android:id="@+id/magicWand_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:src="@drawable/icon_22_on_2x" />
+
+        <ImageView
+            android:id="@+id/eraserj_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:src="@drawable/icon_23_2x" />
+
+        <ImageView
+            android:id="@+id/eraser_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:src="@drawable/icon_24_2x" />
+
+        <ImageView
+            android:id="@+id/undo_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:src="@drawable/icon_25_2x" />
+
+        <ImageView
+            android:id="@+id/save_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:src="@drawable/item_save_selector" />
+    </LinearLayout>
+
+</LinearLayout>
